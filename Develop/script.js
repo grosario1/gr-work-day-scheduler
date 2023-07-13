@@ -13,5 +13,18 @@ $(function () {
    localStorage.setItem(hour, description);
    showMessage('Appointment added to local storage');
  });
-
+ 
+  // Apply the past, present, or future class to each time block based on the current time
+  var currentHour = dayjs().hour();
+  $('.time-block').each(function () {
+    var hour = parseInt($(this).attr('id').split('-')[1]);
+    if (hour < currentHour) {
+      $(this).addClass('past');
+    } else if (hour === currentHour) {
+      $(this).addClass('present');
+    } else {
+      $(this).addClass('future');
+    }
+  });
+  
 });
