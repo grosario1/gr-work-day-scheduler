@@ -18,7 +18,7 @@ Link to deployed live URL [here.](https://grosario1.github.io/gr-work-day-schedu
 
 ![Alt text]("/../Assets/work-day-scheduler-img1.jpg)
 ![Alt text]("/../Assets/work-day-scheduler-img2.jpg)
-]
+
 
 You can find code repo [here.](https://github.com/grosario1/gr-work-day-scheduler)
 
