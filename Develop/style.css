@@ -12,6 +12,7 @@ textarea {
   padding: 10px;
 }
 
+/* CSS for the top border line  */
 .container-fluid {
   border-top: 8px solid black;
   padding-top: 10px;

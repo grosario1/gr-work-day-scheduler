@@ -34,7 +34,7 @@ $(function () {
       }
     });
   
-    // Function to display a message below the top black border
+    // Function to display a "Appointment added to local storage" message below the top black border
     function showMessage(message) {
       var messageElement = $('<p>').text(message).addClass('text-center');
       $('.container-fluid').prepend(messageElement);
