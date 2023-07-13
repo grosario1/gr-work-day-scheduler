@@ -1,6 +1,4 @@
-// Wrap all code that interacts with the DOM in a call to jQuery to ensure that
-// the code isn't run until the browser has finished rendering all the elements
-// in the html.
+
 $(function () {
  // Get the current date using Day.js and display it at the top of the calendar
  var currentDate = dayjs().format('dddd, MMMM D, YYYY');
@@ -26,5 +24,25 @@ $(function () {
       $(this).addClass('future');
     }
   });
+
+    // Get the saved events from local storage and set the values of the corresponding textarea elements
+    $('.time-block').each(function () {
+      var hour = $(this).attr('id');
+      var description = localStorage.getItem(hour);
+      if (description) {
+        $(this).find('.description').val(description);
+      }
+    });
   
+    // Function to display a message below the top black border
+    function showMessage(message) {
+      var messageElement = $('<p>').text(message).addClass('text-center');
+      $('.container-fluid').prepend(messageElement);
+      setTimeout(function () {
+        messageElement.fadeOut('slow', function () {
+          $(this).remove();
+        });
+      }, 3000);
+    }
+
 });
