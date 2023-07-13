@@ -12,6 +12,11 @@ textarea {
   padding: 10px;
 }
 
+.container-fluid {
+  border-top: 8px solid black;
+  padding-top: 10px;
+}
+
 .description {
   white-space: pre-wrap;
 }
