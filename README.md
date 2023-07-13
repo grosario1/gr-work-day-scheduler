@@ -14,13 +14,13 @@ https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-gi
 To use the app, click on the deployed live url below. 
   
 
-Link to deployed live URL [here.](https://grosario1.github.io/gil-rosario-coding-quiz-app/)
+Link to deployed live URL [here.](https://grosario1.github.io/gr-work-day-scheduler/)
 
-![Alt text]("../../assets/../images/coding-ap-main-pg.jpg)
-![Alt text]("../../assets/../images/coding-ap-question-example-on-page.jpg)
+![Alt text]("/../Assets/work-day-scheduler-img1.jpg)
+![Alt text]("/../Assets/work-day-scheduler-img2.jpg)
 ]
 
-You can find code repo [here.](https://github.com/grosario1/gil-rosario-coding-quiz-app)
+You can find code repo [here.](https://github.com/grosario1/gr-work-day-scheduler)
 
 ## Credits
 
